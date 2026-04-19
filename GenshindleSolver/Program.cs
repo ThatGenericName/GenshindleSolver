@@ -28,13 +28,10 @@ using (var reader = new StreamReader(fileName))
 
 // AnalysisMode.RunAnalysis(characters, false);
 // AnalysisMode.RunAnalysis(characters, true);
+// AnalysisMode.RunRandomizedHMAnalysis(characters, false);
+// AnalysisMode.RunRandomizedHMAnalysis(characters, true);
 
-
- AnalysisMode.RunRandomizedHMAnalysis(characters, false);
- 
- AnalysisMode.RunRandomizedHMAnalysis(characters, true);
-
-return;
+// return;
 
 bool normalMode = false;
 

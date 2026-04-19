@@ -97,6 +97,12 @@ public static class AnalysisMode
             CharacterStatisticalAnalysis analysis = new CharacterStatisticalAnalysis(nList);
             var init = analysis.RunStatisticalAnalysis(useEntropy);
 
+            if (init[0].Item1 == targetChar)
+            {
+                counters[0]++;
+                totalIters++;
+                continue;
+            }
             
             bool exitEarly = false;
             for (int i = 0; i < 6; i++)
