@@ -10,7 +10,7 @@ Has options to use either the Entropy based solver or Expected Value based solve
 
 For the normal mode (with 5 guesses), this is guaranteed to solve within the 5 turns and the current character list (Genshin Luna VI) and there is no difference between the Entropy based solver or Expected Value based solver (or at least the number of guesses required across all characters were the exact same).
 
-This is a list of the number of guesses and number of characters that require that many guesses. This is the same regardless of which mode you use.
+This is a list of the number of guesses and number of characters that require that many guesses. This is the same regardless of which solver mode you use.
 * 1: 1
 * 2: 6
 * 3: 55
